@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body{
+    background-color: rgb(100, 99, 99);
+}
+
+header{
+    background-color: rgb(56, 55, 55);
+    padding: 5px;
+    text-align: center;
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+form{
+    margin-top: 10px;
+    width: 60%;
+    text-align: center;
+}
+
+input{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+form img{
+    float: left;
+}
+
+.campos{
+    margin-top: 5px;
+}
+
+.buttons{
+    margin-top: 10px;
+    
+}
+
+button{
+    padding: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: rgb(84, 84, 84);
+}
+
+@media (max-width: 800px){
+    selection{
+        align-items: center;
+    }
+    
+
+}
